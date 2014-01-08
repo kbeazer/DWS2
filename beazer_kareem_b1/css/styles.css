@@ -1,0 +1,104 @@
+body{
+	width: 100%;
+	background: url(../images/squared_metal.png);
+}
+
+.pageContent{
+	border: solid black 1px;
+	border-radius: 10px 10px 10px 10px;
+	background: url(../images/tweed.png);
+	width: 80%;
+	padding: 20px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+h1{
+	font-family: georgia;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+div[id*="main"]{
+	border-bottom: 1px solid black;
+}
+nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 1em;
+	position: absolute;
+	left: 50%;
+	top: 7%;
+	overflow: hidden;
+}
+
+nav ul li{
+	display: inline;
+	padding-left: 50px;
+}
+
+ul li>a{
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+a[href]{
+	color: blue;
+}
+
+a[href="#"]:hover{
+	color: #666;
+}
+
+a[href^="http://"]{
+	text-decoration: none;
+}
+
+a[href$=".asp"]:hover{
+	color: #666;	
+}
+
+header{
+	border-radius: 10px 10px 0px 0px;
+	background: url(../images/squared_metal.png);
+	padding: 10px;
+}
+
+#main{
+	width: 60.5%;
+	background: url(../images/squared_metal.png);
+	padding: 10px;
+	margin: 10px 0px 10px 0;
+	float: left;
+}
+
+.description{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+aside{
+	width: 35%;
+	background: url(../images/squared_metal.png);
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	float: right;	
+}
+
+.feed{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+div[class]{
+	font-family: sans-serif;
+}
+
+footer{
+	text-align: center;
+	background: url(../images/squared_metal.png);
+	padding: 10px;
+	margin-top: 10px;
+	clear: both;
+}

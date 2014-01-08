@@ -1,0 +1,31 @@
+body{
+	width: 960px;
+	display: center;
+}
+
+#header{
+	background-color: #5174d5;
+	padding: 20px;
+}
+
+
+#sidebar{
+	width: 367px;
+	background-color: #e3e3e3;
+	float: left;
+	/* padding: 10px; */
+}
+
+#main{
+	width: 593px;
+	background-color: #a9a9a9;
+	float: left;
+	/* padding: 5px; */
+}
+
+#footer{
+	background-color: #666666;
+	padding: 10px, 20px, 10px, 20px;
+	clear: both;
+}
+
