@@ -1,5 +1,5 @@
 kbeazer github page
-https://github.com/kbeazer/DWS2/blob/gh-pages/b3_beazer_kareem/basketball.html
+https://github.com/kbeazer/DWS2/blob/gh-pages/b4_beazer_kareem/cmr.html
 
 kbeazer Github Website
-kbeazer.github.com/DWS2/b3_beazer_kareem/basketball.html
+kbeazer.github.com/DWS2/b4_beazer_kareem/cmr.html
