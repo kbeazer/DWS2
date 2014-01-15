@@ -1,0 +1,205 @@
+body{
+	background: #000;
+	margin: 1.4084% 0 1.4084% 0;
+}
+
+.container{
+	width: 90%;
+	background: #fff;
+}
+
+h1[class="remove-bottom"]{
+	background: #dc0006;
+	margin: 1.6025% 0 0 0;
+	padding: .8012%;
+	color: #000;
+}
+
+h1 small{
+	color: #fff;
+}
+
+h1 small[id="inc"]{
+	color: #000;
+}
+
+h5{
+	margin: 0;
+	background: #000;
+	color: #fff;
+	padding: .8012%;
+}
+
+nav{
+	
+}
+
+figure{
+	width: 75%;
+	background: #666;
+}
+
+img[alt^="conscious"]{
+	display: none;
+}
+
+img[alt^="cmr"]{
+	float: left;
+	max-width: 100%;
+	margin-bottom: 1.6025%;
+}
+
+img[alt^="men"]{
+	display: none;
+}
+
+.jumbotron{
+	max-width: 100%;
+	padding: 0 0 0 .8012%;
+	margin-bottom: 1.6025%;
+	float: left;
+	clear: left;
+}
+
+.jumbotron>h1{
+	margin-top: 0;
+	color: #2d6ca2;
+	text-align: center;
+	font-size: 1.9em;
+	font-variant: small-caps;
+}
+
+.jumbotron>p{
+	width: 100%;
+	float: left;
+}
+
+a[class^="btn"]{
+	background: #dc0006;
+	margin-left: 40%;
+}
+
+
+#sidebar{
+	float: right;
+	clear: right;
+	padding: 0 0 0 1.6025%;
+	position: relative;
+}
+
+a.list-group-item.active{
+	background: #dc0006; 
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding-bottom: .8012%;
+	float: left;
+	clear: both;
+}
+
+footer>h5{
+	background: #dc0006;
+	color: #000;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+	.container{
+		width: 90%;
+	}
+	
+	img[alt^="cmr"]{
+		display: none;
+	}
+	
+	img[alt^="men"]{
+		display: block;
+		max-width: 100%;
+		float: left;
+		margin-bottom: 2.4630%;
+	}
+	
+	.right-side{
+		display: none;
+	}
+	
+	.jumbotron>h1{
+		font-size: 1.5em;
+	}	
+}
+
+@media only screen and (min-width: 455px) and (max-width: 767px){
+	.container{
+		width: 90%;
+	}
+	
+	img[alt^="men"]{
+		display: none;
+	}
+	
+	img[alt^="cmr"]{
+		display: none;
+	}
+	
+	img[alt^="conscious"]{
+		display: block;
+		max-width: 100%;
+		float: left;
+		margin-bottom: 3.0959%;
+	}
+	
+	figure{
+		width: 100%;
+	}
+	
+	#sidebar{
+		width: 100%;
+		padding-left: 0;
+		float: left;	
+	}
+	
+	.jumbotron>h1{
+		font-size: 1.3em;
+	}	
+}
+
+@media only screen and (min-width: 420px) and (max-width: 454px){
+	h1{
+		font-size: 2.3em;
+	}
+	
+	img[alt^="cmr"]{
+		display: none;
+	}
+		
+	img[alt^="conscious"]{
+		display: block;
+		max-width: 100%;
+		float: left;
+		margin-bottom: 5.0632%;
+	}
+	
+	figure{
+		width: 100%;
+	}
+	
+	#sidebar{
+		width: 100%;
+		padding-left: 0;
+		float: left;	
+	}
+	
+	.jumbotron>h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	
+	.jumbotron>p{
+		font-size: .8em;
+	}
+	
+	a[class^="btn"]{
+		margin-left: 25%;
+	}	
+}
