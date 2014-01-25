@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/modernizr.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/js-webshim/minified/extras/modernizr-custom.js"></script>
+    <script src="js/js-webshim/minified/polyfiller.js"></script>
+    <script>
+    //load all defined
+    $.webshims.polyfill();
+    </script>
+  </head>
+
+  <body>
+    <div class="heading">
+      <h1><i>Customer Survey Form</i></h1>
+      <p>Please fill out this quick survey so we can get to know you better!</p>
+    </div> 
+
+    <div class="container">
+     <form>
+      <fieldset>
+        <h3><i>1. Personal Information</i></h3>
+        <label for="first-name">First Name</label><br/>
+        <input type="text" name="first-name" placeholder="Enter your first name" required /><br/>
+        <label for="last-name">Last Name</label><br/>
+        <input type="text" name="last-name" placeholder="Enter your last name" required /><br/>
+        <label for="birthday">Date of Birth</label><br/>
+        <input type="text" name="birthday" placeholder="e.g. 11/27/1999" required /><br/>
+        <label for="email">Email</label><br/>
+        <input type="email" name="email" placeholder="johnD@example.com" required /><br/>
+        <label for="gender">Please select your gender:</label><br/>
+        <input type="radio" name="gender" value="male"required />Male
+        <input type="radio" name="gender" value="female"required />Female
+        <input type="radio" name="gender" value="other"required />Other<br/>
+        <label for="colors">What is your favorite color?</label><br/>
+        <select name="colors">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="purple">Purple</option>
+          <option value="black">Black</option>
+          <option value="grey">Grey</option>
+          <option value="orange">Orange</option>
+          <option value="yellow">Yellow</option>
+        </select><br/>
+        <label for="textarea">Why is this your favorite color?</label></br/>
+        <textarea maxlength="30"> 
+        </textarea>
+      </fieldset>
+        
+      <fieldset>
+        <h3><i>2. Contact Information</i></h3>
+        <label for="address">Street Address</label><br/>
+        <input type="text" name="address" placeholder="Enter your address" required /><br/>
+        <label for="address2">(continued)</label><br/>
+        <input type="text" name="address2" placeholder="address continued" /><br/>
+        <label for="city">City</label><br/>
+        <input type="text" name="city" /><br/>
+        <label for="state">State/Province</label><br/>
+        <input type="text" name="state"/><br/>
+        <label for="zipcode">Zip/Postal</label><br/>
+        <input type="text" name="zipcode" required /><br/>
+        <label for="phone">Phone</label><br/>
+        <input type="text" name="phone" placeholder="e.g. 555-555-5555" required /><br/>
+      </fieldset>
+
+      <fieldset>
+        <h3><i>3. Work History</i></h3>
+        <label for="employment">Place of Employment</label><br/>
+        <input type="text" name="employment" placeholder="e.g. HH Tire and Battery" required /><br/>
+        <label for="start">Start Date</label><br/>
+        <input type="date" name="start"><br/>
+        <label for="time">Time at Job</label><br/>
+        <select name="time">
+          <option value="less than a month">Less than a month</option>
+          <option value="3 months">3 months</option>
+          <option value="6 months">6 months</option>
+          <option value="1 year">1 year</option>
+          <option value="over 2 years">Over 2 years</option>
+          <option value="over 5 years">Over 5 years</option>
+        </select><br/>
+
+        <button id="submit">Submit Form</button>
+      </fieldset>
+     </form> 
+    </div>  
+
+    <footer>
+      <p>&copy; 2014 kbeazer Forms. All rights reserved.</p>
+    </footer>
+
+  </body>
+</html>

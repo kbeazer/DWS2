@@ -1,0 +1,114 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: #343434;
+}
+
+.heading{
+	width: 70%;
+	margin: 0 auto;
+	background: #b1d7ee;
+}
+
+.heading h1{
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.heading p{
+	margin: 0 auto;
+	padding: 0 0 10px 10px;
+}
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+	background: #eeeeee;
+}
+
+fieldset{
+	padding: 0;
+}
+
+fieldset h3{
+	background: #6e9b0a;
+	padding: 20px;
+	margin-top: 0;
+}
+
+label{
+	font-family: arial;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+label[for="colors"]{
+	margin-bottom: 10px;
+}
+
+input{
+	width: 40%;
+	margin: 0 0 10px 20px;
+}
+
+input[type="email"]{
+	margin-bottom: 20px;
+}
+
+input[type="radio"]{
+	width: 20px;
+	margin-top: 10px;
+}
+
+select[name="colors"]{
+	margin: 5px 0 20px 20px;
+	width: 190px;
+}
+
+select[name="time"]{
+	margin: 0 0 10px 20px;
+	width: 190px;
+}
+
+textarea{
+	width: 40%;
+	margin: 10px 20px;
+}
+
+#submit{
+	margin: 0 0 10px 20px;
+	padding: 10px;
+	background: #6e9b0a;
+	border: 1px solid #567a07;
+	color: #fff;
+	font-size: 1em; 
+}
+
+footer{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	background: #c4c4c4;
+}
+
+footer p{
+	margin: 0 auto;
+	padding: 10px;
+}
+
+@media screen and (min-width: 424px) and (max-width: 632px){
+	.heading h1{
+		font-size: 1.7em;
+	}
+
+	.heading p{
+		display: none;
+	}
+
+	#submit{
+		width: 90%;
+		margin-left: 20px;
+	}
+}
+	
