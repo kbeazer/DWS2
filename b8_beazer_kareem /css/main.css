@@ -1,0 +1,76 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/nature.jpg) fixed;
+}
+
+.heading h1{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	color: #deb074;
+	background: #9d200e;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	background: #000;
+	text-align: center;
+}
+
+img[alt$="cinnamon"]{
+	transition-property: none;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+	trasition-delay: 0;
+}
+img[alt$="cinnamon"]:hover{
+	transform: rotate(7deg);
+}	
+img[alt$="cilantro"]:hover{
+	transform: rotate(7deg);
+}
+img[src="images/food-prep.jpg"]:hover{
+	transform: rotate(7deg);
+}
+img[src="images/whole-herbs.jpg"]:hover{
+	transform: rotate(7deg);
+}
+
+img[src="images/herbs-spices.jpg"]:hover{
+	transform: translate(10px,10px);
+}
+img[src="images/herbs-kitchen.jpg"]:hover{
+	transform: translate(10px,10px);
+}
+img[src="images/herbs.jpg"]:hover{
+	transform: translate(10px,10px);
+}
+img[src="images/dry-herbs.jpg"]:hover{
+	transform: translate(10px,10px);
+}
+
+img[src="images/spoons.jpg"]:hover{
+	transform: rotate(-7deg);
+}
+img[src="images/herb-pots.jpg"]:hover{
+	transform: rotate(-7deg);
+}
+img[src="images/rosemary.jpg"]:hover{
+	transform: rotate(-7deg);
+}
+img[src="images/whole-spices.jpg"]:hover{
+	transform: rotate(-7deg);
+}
+
+footer{
+	width: 90%;
+	text-align: center;
+	background: #9d200e;
+	margin: 0 auto;
+	color: #deb074;
+	padding: 20px;
+}
